@@ -1,0 +1,25 @@
+.card {
+	width: 45%;
+	padding: 2%;
+	color: #999;
+}
+.card > h1{
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+}
+.card > h2 {
+	color: #fff;
+	font-size: 1em;
+	text-align: center;
+	text-transform: capitalize;
+}
+.image > img {
+	width: 100%;
+}
+.skill {
+	width: 90%;
+}
+.skill > h2 {
+	text-align: left;
+}

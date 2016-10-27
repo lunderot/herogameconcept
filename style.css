@@ -1,0 +1,36 @@
+body {
+	background:#000;
+	color:#fff;
+	padding: 0;
+	margin: 0;
+}
+#wrapper {
+	width: 1024px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+#menu {
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: -80px;
+}
+#menu > a {
+	width: 110px;
+	background-image: url("images/button.png");
+	text-align: center;
+	font-size: 1.9em;
+	color: #000;
+	text-decoration: none;
+	padding-top: 8px;
+}
+#content {
+	width:100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+

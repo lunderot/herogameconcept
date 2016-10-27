@@ -1,0 +1,27 @@
+.hero {
+	width: 150px;
+	border: 1px solid #333;
+	margin: 10px;
+	text-decoration: none;
+	color: #fff;
+	transition: border-color .5s;
+}
+.hero:hover {
+	border-color: #fff;
+	transition: border-color .5s;
+}
+.hero > img {
+	width: 100%;
+}
+.hero > figcaption {
+	font-size: 1.3em;
+	text-align: center;
+}
+.hero > figcaption  > div{
+	font-size: .8em;
+	text-align: center;
+	color: #999;
+}
+.hidden {
+	display: none;
+}

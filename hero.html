@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="hero.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+		<script src="hero.js"></script>
+		<script id="template" type="text/x-handlebars-template">
+			<div class="card image">
+				<img src="images/hero/big/{{class}}/{{link}}.jpg"></img>
+			</div>
+			<div class="card desc">
+				<h1>{{name}} - {{title}}</h1>
+				<h2>{{class}}</h2>
+				{{{desc}}}
+			</div>
+			<div class="card skill">
+				<h2>Q - <span>{{skill.q.name}}</span></h2>
+				{{{skill.q.desc}}}
+			</div>
+			<div class="card skill">
+				<h2>W - <span>{{skill.w.name}}</span></h2>
+				{{{skill.w.desc}}}
+			</div>
+			<div class="card skill">
+				<h2>E - <span>{{skill.e.name}}</span></h2>
+				{{{skill.e.desc}}}
+			</div>
+			<div class="card skill">
+				<h2>R - <span>{{skill.r.name}}</span></h2>
+				{{{skill.r.desc}}}
+			</div>
+		</script>
+		
+		<title>Hero game concept</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<img src="images/header.png"></img>
+			</div>
+			<div id="menu">
+				<a onclick="filter('hunter')">Hunter</a>
+				<a onclick="filter('assassin')">Assasin</a>
+				<a onclick="filter('fighter')">Fighter</a>
+				<a onclick="filter('tank')">Tank</a>
+				<a onclick="filter('mage')">Mage</a>
+				<a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;</a>
+				<a href="search.html"><i class="fa fa-search fa-fw" aria-hidden="true"></i>&nbsp;</a>
+			</div>
+			<div id="content">
+			</div>
+		</div>
+	</body>
+</html>
