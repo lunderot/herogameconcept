@@ -3,23 +3,41 @@
 	padding: 2%;
 	color: #999;
 }
-.card > h1{
+.desc h1{
 	color: #fff;
 	font-size: 3em;
 	text-align: center;
 }
-.card > h2 {
+.desc h2 {
 	color: #fff;
 	font-size: 1em;
 	text-align: center;
 	text-transform: capitalize;
 }
-.image > img {
+.image img {
 	width: 100%;
 }
 .skill {
-	width: 90%;
+	width: 100%;
 }
-.skill > h2 {
+.skill h1 {
 	text-align: left;
+	color: #fff;
+	border-bottom: 1px solid white;
+}
+.skill table {
+	table-layout: fixed;
+	width: 100%;
+}
+.key {
+	vertical-align: top;
+	width: 10em;
+	color: #fff;
+}
+.value {
+	word-wrap: break-all;
+}
+.blank {
+	height: 1em;
+	colspan: 2;
 }
