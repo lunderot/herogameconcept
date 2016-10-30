@@ -7,28 +7,13 @@ window.onload = function() {
 				var data = JSON.parse(xhr.responseText)["hero"][link];
 				var source = document.getElementById("template").innerHTML;
 				var template = Handlebars.compile(source);
-				console.log(data);
-				
 				data.link = link;
 				document.getElementById("content").innerHTML = template(data);
+				document.title = data.name + " - " + data.title;
 			}
 		}
 		xhr.open("GET", "/data.json");
 		xhr.send();
-		
-		
-		
-		//var xhr = new XMLHttpRequest();
-		//xhr.onreadystatechange = function() {
-		//	if (xhr.readyState == XMLHttpRequest.DONE) {
-		//		var data = JSON.parse(xhr.responseText);
-		//		data.link = link;
-		//		document.title = data.name + " - " + data.title;
-		//		document.getElementById("content").innerHTML = template.supplant(data);
-		//	}
-		//}
-		//xhr.open("GET", "/hero/"+link+".json");
-		//xhr.send();
 	}
 	else
 	{
