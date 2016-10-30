@@ -1,4 +1,5 @@
 function filter(classname) {
+	window.location.hash = classname;
 	Array.prototype.forEach.call(document.querySelectorAll(".hero"), function (el) {
 		if(el.classList.contains(classname)) {
 			el.classList.remove("hidden")
@@ -17,6 +18,9 @@ window.onload = function() {
 			var source = document.getElementById("template").innerHTML;
 			var template = Handlebars.compile(source);
 			document.getElementById("content").innerHTML = template(data);
+			if(window.location.hash) {
+				filter(window.location.hash.substring(1));
+			}
 		}
 	}
 	xhr.open("GET", "/data.json");

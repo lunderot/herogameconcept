@@ -34,4 +34,14 @@ body {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+.fade {
+    height: 400px;
+    width: 1024px;
+    position:absolute;
+    background: -webkit-linear-gradient(bottom, 
+                rgba(0,0,0,1) 0%,
+				rgba(0,0,0,0) 30%,
+                rgba(0,0,0,0) 100%
+    );
+}
 

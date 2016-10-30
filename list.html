@@ -4,9 +4,19 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="hero.css">
+		<link rel="stylesheet" href="list.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+		<script src="list.js"></script>
+		<script id="template" type="text/x-handlebars-template">
+			{{#each hero}}
+					<a href="hero.html#{{@key}}" class="hero {{class}}">
+					<img src="images/hero/small/{{class}}/{{@key}}.jpg"></img>
+					<figcaption>{{name}}<div>{{title}}</div></figcaption>
+					</a>
+			{{/each}}
+		</script>
+		
 		<title>Hero game concept</title>
 	</head>
 	<body>
@@ -16,22 +26,16 @@
 				<img src="images/header/index.jpg"></img>
 			</div>
 			<div id="menu">
-				<a href="list.html#hunter">Hunter</a>
-				<a href="list.html#assassin">Assasin</a>
-				<a href="list.html#fighter">Fighter</a>
-				<a href="list.html#tank">Tank</a>
-				<a href="list.html#mage">Mage</a>
-				<a href="items.html">Items</a>
+				<a onclick="filter('hunter')">Hunter</a>
+				<a onclick="filter('assassin')">Assasin</a>
+				<a onclick="filter('fighter')">Fighter</a>
+				<a onclick="filter('tank')">Tank</a>
+				<a onclick="filter('mage')">Mage</a>
+				<a href="search.html">Items</a>
 				<a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;</a>
 				<a href="search.html"><i class="fa fa-search fa-fw" aria-hidden="true"></i>&nbsp;</a>
 			</div>
 			<div id="content">
-				<div class="card desc">
-					<h1>Hero game concept</h1>
-					<p>This page was originally created to show off a game idea.</p>
-					<p>Most of the content is replaced by placeholders to show the layout and design of the web page.</p>
-					<p>Created by Mattias Lunderot, <a href="http://lunderot.se">lunderot.se</a></p>
-				</div>
 			</div>
 		</div>
 	</body>
