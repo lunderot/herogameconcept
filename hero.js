@@ -10,6 +10,9 @@ window.onload = function() {
 				data.link = link;
 				document.getElementById("content").innerHTML = template(data);
 				document.title = data.name + " - " + data.title;
+				var header = document.querySelector("#header img");
+				header.src = "images/header/"+ data.class + ".jpg";
+				header.style.visibility = "visible";
 			}
 		}
 		xhr.open("GET", "/data.json");

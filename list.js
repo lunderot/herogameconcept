@@ -1,5 +1,8 @@
 function filter(classname) {
 	window.location.hash = classname;
+	var header = document.querySelector("#header img");
+	header.src = "images/header/"+ classname + ".jpg";
+	header.style.visibility = "visible";
 	Array.prototype.forEach.call(document.querySelectorAll(".hero"), function (el) {
 		if(el.classList.contains(classname)) {
 			el.classList.remove("hidden")

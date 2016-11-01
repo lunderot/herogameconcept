@@ -11,6 +11,9 @@ body {
 	margin-right: auto;
 	padding-top: 50px;
 }
+#header img {
+	visibility: hidden;
+}
 #menu {
 	height: 60px;
 	display: flex;
