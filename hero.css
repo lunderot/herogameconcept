@@ -20,6 +20,7 @@
 .skill {
 	width: 100%;
 }
+
 .skill h1 {
 	text-align: left;
 	color: #fff;
@@ -27,6 +28,16 @@
 }
 .skill table {
 	table-layout: fixed;
+	width: 100%;
+}
+.skin {
+	width: 40%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.2em;
+	color: #fff;
+}
+.skin > img {
 	width: 100%;
 }
 .key {
