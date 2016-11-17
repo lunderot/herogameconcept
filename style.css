@@ -23,13 +23,21 @@ body {
 }
 #menu > a {
 	width: 110px;
-	background-image: url("images/button.png");
+	background: #000;
+	border: 1px solid #333;
 	text-align: center;
 	font-size: 1.9em;
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	padding-top: 8px;
 	cursor: pointer;
+	transition: all .2s ease-in;
+	transform: scale(1);
+}
+#menu > a:hover {
+	border-color: #fff;
+	transition: all .2s ease-out;
+	transform: scale(1.1);
 }
 #content {
 	width:100%;

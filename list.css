@@ -4,11 +4,13 @@
 	margin: 10px;
 	text-decoration: none;
 	color: #fff;
-	transition: border-color .5s;
+	transition: all .2s ease-in;
+	transform: scale(1);
 }
 .hero:hover {
 	border-color: #fff;
-	transition: border-color .5s;
+	transition: all .2s ease-out;
+	transform: scale(1.1);
 }
 .hero > img {
 	width: 100%;
