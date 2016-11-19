@@ -12,7 +12,11 @@
 			{{#each hero}}
 					<a href="hero.html#{{@key}}" class="hero {{class}}">
 					<img src="images/hero/small/{{class}}/{{@key}}.jpg"></img>
-					<figcaption>{{name}}<div>{{title}}</div></figcaption>
+					<figcaption>{{name}}
+					{{#if title}}
+						<div>{{title}}</div>
+					{{/if}}
+					</figcaption>
 					</a>
 			{{/each}}
 		</script>
@@ -31,7 +35,7 @@
 				<a onclick="filter('fighter')">Fighter</a>
 				<a onclick="filter('tank')">Tank</a>
 				<a onclick="filter('mage')">Mage</a>
-				<a href="search.html">Items</a>
+				<a onclick="filter('item')">Items</a>
 				<a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;</a>
 				<a href="search.html"><i class="fa fa-search fa-fw" aria-hidden="true"></i>&nbsp;</a>
 			</div>

@@ -9,7 +9,10 @@ window.onload = function() {
 				var template = Handlebars.compile(source);
 				data.link = link;
 				document.getElementById("content").innerHTML = template(data);
-				document.title = data.name + " - " + data.title;
+				document.title = data.name;
+				if(data.title) {
+					document.title += " - " + data.title;
+				}
 				var header = document.querySelector("#header img");
 				header.src = "images/header/"+ data.class + ".jpg";
 				header.style.visibility = "visible";
