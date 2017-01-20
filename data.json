@@ -1,0 +1,228 @@
+{
+	"hero": {
+		"amy": {
+			"name": "Amy",
+			"class": "fighter",
+			"title": "The Sand Warrior",
+			"desc": "Amy fights crime in the desert with her mighty powers to control the sand.",
+			"skill": {
+				"Sand Step": {
+					"prop": {
+						"Active": "Amy dashes forward gaining movement speed and deals physical damage to anyone in her path."
+					}
+				},
+				"Quicksand": {
+					"prop": {
+						"Active": "Amy creates an area with quicksand, reducing enemy movement speed."
+					}
+				},
+				"Slice": {
+					"prop": {
+						"Active": "Amy spins around with her staff, dealing physical damage to enemies."
+					}
+				},
+				"Sandstorm": {
+					"prop": {
+						"Active": "Amy creates a sandstorm which blinds nearby enemies, dealing physical damage."
+					}
+				}
+			}
+		},
+		"calida": {
+			"name": "Calida",
+			"class": "mage",
+			"title": "The Fire Mistress",
+			"desc": "Legend says Calida learned her fire powers from a dragon she keeps in her parents castle.",
+			"skill": {
+				"Hot To The Touch": {
+					"prop": {
+						"Passive": "Anyone who attacks Calida instantly combusts."
+					}
+				},
+				"Fireball": {
+					"prop": {
+						"Active": "Calida throws a ball of fire, dealing magic damage to all enemies in it's path."
+					}
+				},
+				"Fire Circle": {
+					"prop": {
+						"Active": "Calida creates a circle of fire around her, dealing magic damage to enemies."
+					}
+				},
+				"Fire Tornado": {
+					"prop": {
+						"Active": "Calida creates a big tornado of fire that throws any enemies away in it's path, dealing magic damage."
+					}
+				}
+			}
+		},
+		"gerty": {
+			"name": "Gerty",
+			"class": "hunter",
+			"title": "The Griffin Rider",
+			"desc": "Gerty was brought up by a flock of griffins, now she fights for justice with her bow.",
+			"skill": {
+				"Piercing Arrow": {
+					"prop": {
+						"Active": "Gerty launches an arrow that pierces through enemies."
+					}
+				},
+				"Griffin Roar": {
+					"prop": {
+						"Active": "Gerty's griffin screams to increases her and her allies strength."
+					}
+				},
+				"Griffin Claws": {
+					"prop": {
+						"Active": "Gerty sends her griffin to attack an enemy, dealing physical damage."
+					}
+				},
+				"Griffin Escape": {
+					"prop": {
+						"Active": "Gerty rides her griffin in the air for a short duration, letting her escape enemies."
+					}
+				}
+			}
+		},
+		"grooth": {
+			"name": "Grooth",
+			"class": "assassin",
+			"title": "The Monster",
+			"desc": "A mythical beast from the dark forest, he never talks about his past.",
+			"skill": {
+				"Feed": {
+					"prop": {
+						"Active": "Grooth eats a minion, healing him and increasing his physical power."
+					}
+				},
+				"Root Travel": {
+					"prop": {
+						"Active": "Grooth travels underground and becomes invisible for enemies until he attacks."
+					}
+				},
+				"Leap of rage": {
+					"prop": {
+						"Active": "Grooth leaps to a target, dealing physical damage to all enemies around him."
+					}
+				},
+				"Power of roots": {
+					"prop": {
+						"Active": "Grooth trips all enemies around him with his roots, stunning them for 2 seconds."
+					}
+				}
+			}
+		},
+		"kronk": {
+			"name": "Kronk",
+			"class": "tank",
+			"title": "The Dumb Barbarian",
+			"desc": "Kronk is to dumb to feel pain and always solves his problems with violence.",
+			"skill": {
+				"Axe Swing": {
+					"prop": {
+						"Active": "Kronk swings his axe, dealing bleeding and physical damage."
+					}
+				},
+				"War Cry": {
+					"prop": {
+						"Active": "Kronk screams, increasing you and your allies physical power and protection for a short amount of time."
+					}
+				},
+				"Shout": {
+					"prop": {
+						"Active": "Kronk screams and decreases enemy physical power and protection for a short amount of time."
+					}
+				},
+				"No Pain No Game": {
+					"prop": {
+						"Active": "Kronk screams and will not die for 10 seconds."
+					}
+				}
+			}
+		},
+		"maya": {
+			"name": "Maya",
+			"class": "mage",
+			"title": "The Forest Girl",
+			"desc": "Maya lives by herself in the wild forest where she acquired the power to manipulate nature's energy.",
+			"skill": {
+				"Angry Roots": {
+					"prop": {
+						"Active": "Maya sends tree roots in a line, dealing physical damage."
+					}
+				},
+				"Natural Energy": {
+					"prop": {
+						"Active": "Maya creates a healing field, healing herself and allies slowly."
+					}
+				},
+				"Leaf Trap": {
+					"prop": {
+						"Active": "Maya digs a hole and covers it with leaves, stunning enemies who walks on it."
+					}
+				},
+				"Natural Protection": {
+					"prop": {
+						"Active": "Maya creates a large protective shield around her, blocking all projectiles."
+					}
+				}
+			}
+		},
+		"mikael": {
+			"name": "Mikael",
+			"class": "fighter",
+			"title": "The Pirate",
+			"desc": "Mikael has traveled all over the world and found the fountain of youth.",
+			"skill": {
+				"Deadly Weapon": {
+					"prop": {
+						"Active": "Mikeal shoots his gun, piercing through enemies. dealing physical damage."
+					}
+				},
+				"Convince": {
+					"prop": {
+						"Active": "Mikeal shouts, increasing his and his allies movement speed and attack speed for a short amount of time."
+					}
+				},
+				"Pirate Blades": {
+					"prop": {
+						"Active": "Mikeal throws four swords in all four directions, dealing physical damage."
+					}
+				},
+				"Immortal": {
+					"prop": {
+						"Active": "Mikeal drinks water from the fountain of youth, resurrecting himself."
+					}
+				}
+			}
+		},
+		"nina": {
+			"name": "Nina",
+			"class": "assassin",
+			"title": "The Cold Ninja",
+			"desc": "Nina saw her parents die in front of her when she was a kid and now kills for the gold.",
+			"skill": {
+				"Slashing Vault": {
+					"prop": {
+						"Active": "Nina vaults to and strikes with her blades, dealing physical damage."
+					}
+				},
+				"Stars": {
+					"prop": {
+						"Active": "Nina throw blades, dealing physical damage and reduced movement speed."
+					}
+				},
+				"Mist": {
+					"prop": {
+						"Active": "Nina creates a thick fog around her which makes her invisible to enemies."
+					}
+				},
+				"In a Flash": {
+					"prop": {
+						"Active": "Nina strikes all enemies nearby her in a flash, dealing physical damage."
+					}
+				}
+			}
+		}
+	}
+}
