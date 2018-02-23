@@ -18,7 +18,7 @@ window.onload = function() {
 				header.style.visibility = "visible";
 			}
 		}
-		xhr.open("GET", "/data.json");
+		xhr.open("GET", "data.json");
 		xhr.send();
 	}
 	else
